@@ -10,7 +10,7 @@ const Header = () => {
 </header>
 <nav>
 <Link key={1} className="nav-link text-light" to="/">
-          Home Page
+          About Me
         </Link>
    
     <Link key={2} className="nav-link text-light" to="/work">
