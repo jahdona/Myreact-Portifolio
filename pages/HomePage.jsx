@@ -3,9 +3,20 @@ import React from 'react'
 const HomePage = () => {
   return (
     <>
+      <style jsx='true'>
+{`body{
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    background: rgba( 71, 147, 227, 1);
+}
+    #about{
+    background-color:white;
+    }
+`}
+  </style>
     <section className="About-Me" id="About-Me">
            
-            <div className="About-me-content">
+            <div className="About-me-content" id='about'>
                 <p> I am a male Rwandese living in United States of America in Big Rapids
                     Michigan. I am currently under a K1 Visa (Fiance Visa) waiting for Permanent residence.
                     I completed my undergraduate degree in Bachelor of Science 

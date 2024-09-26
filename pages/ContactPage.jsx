@@ -3,7 +3,14 @@ import React from 'react'
 const ContactPage = () => {
   return (
     <>
-  
+  <style jsx='true'>
+{`body{
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    background: rgba( 71, 147, 227, 1);
+}
+`}
+  </style>
         <div className="center">
   <div className="container">
   

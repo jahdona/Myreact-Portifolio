@@ -9,6 +9,15 @@ import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 const ResumePage = () => {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
   return (
+    <>
+      <style jsx='true'>
+{`body{
+    font-family: Helvetica;
+    -webkit-font-smoothing: antialiased;
+    background: rgba( 71, 147, 227, 1);
+}
+`}
+  </style>
     <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.js">
             <div
                 style={{
@@ -21,8 +30,9 @@ const ResumePage = () => {
                 <Viewer fileUrl="/Resume.pdf" plugins={[defaultLayoutPluginInstance]} />
             </div>
         </Worker>
-    
+    </>
   )
+
 }
 
 export default ResumePage
