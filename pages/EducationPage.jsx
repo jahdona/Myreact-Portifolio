@@ -26,16 +26,17 @@ h2{
 .table-wrapper{
     margin: 10px 70px 70px;
     box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    width:85%
 }
 
 .fl-table {
     border-radius: 5px;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: normal;
     border: none;
     border-collapse: collapse;
-    width: 100%;
-    max-width: 100%;
+    width: 80%;
+    max-width: 90%;
     white-space: nowrap;
     background-color: white;
 }
@@ -47,9 +48,11 @@ h2{
 
 .fl-table td {
     border-right: 1px solid #f8f8f8;
-    font-size: 12px;
+    font-size: 15px;
 }
-
+tr{
+            height:50px
+    }
 .fl-table thead th {
     color: #ffffff;
     background: #4FC3A1;
@@ -76,7 +79,7 @@ h2{
         content: "Scroll horizontally >";
         display: block;
         text-align: right;
-        font-size: 11px;
+        font-size: 13px;
         color: white;
         padding: 0 0 10px;
     }
@@ -102,7 +105,7 @@ h2{
         overflow-x: hidden;
         overflow-y: auto;
         width: 120px;
-        font-size: 13px;
+        font-size: 18px;
         text-overflow: ellipsis;
     }
     .fl-table thead th {
@@ -131,56 +134,46 @@ h2{
     }
 }
 
+
         `}
     </style>
-    <h2>Responsive Table</h2>
+    <h2>Click Resume for more details</h2>
 <div class="table-wrapper">
     <table class="fl-table">
         <thead>
         <tr>
-            <th>Institution</th>
             <th>Period</th>
-            <th>Position</th>
-            <th>Main Task</th>
+            <th>Institution /University</th>
+            <th>Awarded Certificate</th>
+          
             
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>Content 1</td>
-            <td>Content 1</td>
-            <td>Content 1</td>
-            <td>Content 1</td>
-           
-        </tr>
-        <tr>
-            <td>Content 2</td>
-            <td>Content 2</td>
-            <td>Content 2</td>
-            <td>Content 2</td>
+            <td>April - September 2024</td>
+            <td>Michigan State University</td>
+            <td>Bootcamp Certificate in Web Application Development</td>
+        
             
         </tr>
         <tr>
-            <td>Content 3</td>
-            <td>Content 3</td>
-            <td>Content 3</td>
-            <td>Content 3</td>
+            <td>Jan 2006 - Feb 2011</td>
+            <td>National University of Rwanda</td>
+            <td>Bachelor Degree in Computer Science</td>
             
-        </tr>
-        <tr>
-            <td>Content 4</td>
-            <td>Content 4</td>
-            <td>Content 4</td>
-            <td>Content 4</td>
            
         </tr>
+       
         <tr>
-            <td>Content 5</td>
-            <td>Content 5</td>
-            <td>Content 5</td>
-            <td>Content 5</td>
-          
+            <td>Jan 1999- August 2005</td>
+            <td>GS CIM Rwankuba /RULINDO- RWANDA</td>
+            <td>2005 High School Diploma in Mathematics and Physics
+            </td>
+            
+            
         </tr>
+       
       
         </tbody>
     </table>
