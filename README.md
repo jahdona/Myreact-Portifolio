@@ -85,14 +85,13 @@ A short and simple permissive license with conditions only requiring preservatio
 
 
 ## Contributing
-We'd love for you to contribute! In order to do so, fork this repository. Your pull request will need approval in order to merge to ```main```. <br/><br/> Feel free to implement your own ideas and merge request!
-
+We'd like to get feedback from who ever needs to contribute and together we can go further
 ## Tests
 No tests were run to complete this CMS.
 
 ## Questions
 Find Jean de Dieu Habiyaremye on [GitHub](https://github.com/jahdona/)<br/>
-Or visit My Portifolio's repository: [Portifolio](https://github.com/jahdona/pwa-text-editor)
+Or visit My Portifolio's repository: [Portifolio](https://github.com/jahdona/Myreact-Portifolio)
 
 - - -
 © 2024 Just Another Portifolio: My React Portifolio by Jean de Dieu Habiyaremye Creative Services, Confidential and Proprietary. All Rights Reserved.
