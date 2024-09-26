@@ -10,26 +10,26 @@ const ResumePage = () => {
     const defaultLayoutPluginInstance = defaultLayoutPlugin();
   return (
     <>
-      <style jsx='true'>
-{`body{
-    font-family: Helvetica;
-    -webkit-font-smoothing: antialiased;
-    background: rgba( 71, 147, 227, 1);
-}
-`}
-  </style>
-    <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.js">
-            <div
-                style={{
-                    height: '750px',
-                    width: '900px',
-                    marginLeft: 'auto',
-                    marginRight: 'auto',
-                }}
-            >
-                <Viewer fileUrl="/Resume.pdf" plugins={[defaultLayoutPluginInstance]} />
-            </div>
-        </Worker>
+                <style jsx='true'>
+            {`body{
+                font-family: Helvetica;
+                -webkit-font-smoothing: antialiased;
+                background: rgba( 71, 147, 227, 1);
+            }
+            `}
+            </style>
+                <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+                        <div
+                            style={{
+                                height: '750px',
+                                width: '900px',
+                                marginLeft: 'auto',
+                                marginRight: 'auto',
+                            }}
+                        >
+                            <Viewer fileUrl="/Resume.pdf" plugins={[defaultLayoutPluginInstance]} />
+                        </div>
+                    </Worker>
     </>
   )
 
