@@ -24,7 +24,7 @@ const Header = () => {
     <Link key={4} className="nav-link text-light" to="/contact">
          Contact Me
         </Link>
-    <a href="/resume"> Resume</a>
+    <a href="/resume.pdf"> Resume</a>
 </nav>
 </>
   )
